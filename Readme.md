@@ -103,7 +103,7 @@ REPLACEMENT_VALUES = {
 3. Определите функцию-форматтер и зарегистрируйте её:
 
    ```python
-   @registry.add_func("your_report")
+   @register_formatter.add_func("your_report")
    def format_report_your(employees: list[Employee]) -> str:
        """Описание вашего отчёта для `--help`."""
        # ваша логика...
