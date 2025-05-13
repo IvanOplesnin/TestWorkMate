@@ -63,5 +63,3 @@ def payout(employees: list[Employee]) -> str:
     return output
 
 
-if __name__ == "__main__":
-    print(register_formatter.help())

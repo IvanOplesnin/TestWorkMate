@@ -10,7 +10,7 @@ class RegisterFormatter:
     def help(self) -> str:
         help_msg = ""
         for name, func in self.FORMATTERS.items():
-            help_msg = f"{name}: {func.__doc__.strip()}\n\n"
+            help_msg += f"{name}: {func.__doc__.strip()}\n"
 
         return help_msg
 
