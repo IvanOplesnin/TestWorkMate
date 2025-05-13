@@ -122,4 +122,9 @@ pytest --cov=src
 * `casting.py`
 * `csv_reader.py`
 * `registry.py`
-
+---
+## Примеры работы скрипта.
+### В консоли.
+![img.png](img.png)
+### Созданный текстовыый файл.
+![img_1.png](img_1.png)
